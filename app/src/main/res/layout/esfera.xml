@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/esfera"
+        android:textAlignment="center"
+        android:textSize="36dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_alignEnd="@+id/txtEsfera"
+        android:layout_alignRight="@+id/txtEsfera"
+        android:layout_below="@+id/txtEsfera"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txtValorRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.31"
+            android:text="@string/valor_del_radio"
+            android:textAlignment="textEnd" />
+
+        <EditText
+            android:id="@+id/txtRadiio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.31"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/txtValorRadio"
+        android:layout_alignStart="@+id/txtValorRadio"
+        android:layout_below="@+id/txtValorRadio"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.23"
+            android:text="@string/calcular"
+            android:onClick="areaEsfera"
+            tools:text="@string/calcular" />
+
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:text="@string/borrar"
+            android:onClick="borrar" />
+    </LinearLayout>
+
+</LinearLayout>

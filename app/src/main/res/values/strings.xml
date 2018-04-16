@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">TallerListview</string>
+    <array name="Menu">
+        <item>@string/area</item>
+        <item>@string/volumenes</item>
+        <item>@string/operaciones_realizadas</item>
+    </array>
+    <string name="area">"Area "</string>
+    <string name="volumenes">Volúmenes</string>
+    <string name="operaciones_realizadas">Operaciones Realizadas</string>
+    <string name="opciones">OPCIONES</string>
+    <string name="areas">Areas</string>
+    <string name="cuadrado">CUADRADO</string>
+
+    <string-array name="Areas">
+        <item>@string/cuadrado</item>
+        <item>@string/rectangulo</item>
+        <item>@string/triangulo</item>
+        <item>@string/circulo</item>
+    </string-array>
+
+    <string-array name="Volumen">
+        <item>@string/esfera</item>
+        <item>@string/cilindro</item>
+        <item>@string/cono</item>
+        <item>@string/cubo</item>
+    </string-array>
+    <string name="rectangulo">RECTÁNGULO</string>
+    <string name="triangulo">TRIANGULO</string>
+    <string name="circulo">CÍRCULO</string>
+    <string name="valor_cuadrado">Valor de Lado:</string>
+    <string name="calcular">Calcular</string>
+    <string name="borrar">Borrar</string>
+    <string name="resultado">Resultado</string>
+    <string name="ok">OK</string>
+    <string name="realizadas">Realizadas</string>
+    <string name="no">No</string>
+    <string name="operacion">Operación</string>
+    <string name="datos">Datos</string>
+    <string name="valor_base">Valor de la Base:</string>
+    <string name="valor_altura">Valor de la Altura:</string>
+    <string name="area_rectangulo">Área del Rectangulo</string>
+    <string name="area_tringulo">Area del Triangulo</string>
+    <string name="valor_del_radio">Valor del Radio:</string>
+    <string name="esfera">ESFERA</string>
+    <string name="cilindro">CILINDRO</string>
+    <string name="cono">CONO</string>
+    <string name="cubo">CUBO</string>
+    <string name="volumen">Volumen:</string>
+    <string name="valor_arista">Valor de Arista:</string>
+    <string name="ingrese_valor_del_lado">Ingrese el Valor del Lado</string>
+    <string name="ingrese_base">Ingrese el Valor de la Base</string>
+    <string name="ingrese_altura">Ingrese el Valor de la Altura</string>
+    <string name="ingrese_radio">Ingrese el Valor del Radio</string>
+    <string name="operacion_esfera">Vol. de la Esfera</string>
+    <string name="radio">Radio:</string>
+    <string name="area_sin_puntos">Area</string>
+    <string name="lado_puntos">Lado:</string>
+    <string name="operacion_cuadrado">Área del Cuadrado</string>
+    <string name="base_puntos">Base:</string>
+    <string name="altura_puntos">Altura:</string>
+    <string name="operacion_rectangulo">Área del Regtangulo</string>
+    <string name="area_puntos">Área:</string>
+    <string name="operacion_triangulo">Área del Triángulo</string>
+    <string name="operacion_circulo">Área del Circulo</string>
+    <string name="operacion_cilindro">Vol. del Cilindro</string>
+    <string name="operacion_cono">Vol. del Cono</string>
+    <string name="arista_puntos">Arista:</string>
+    <string name="operacion_cubo">Vol. del Cubo</string>
+
+</resources>

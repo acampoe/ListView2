@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="me.andrescampo.listview">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name="me.andrescampo.listview.Principal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="me.andrescampo.listview.Area"/>
+        <activity android:name="me.andrescampo.listview.Cilindro"/>
+        <activity android:name="me.andrescampo.listview.Circulo"/>
+        <activity android:name="me.andrescampo.listview.Cono"/>
+        <activity android:name="me.andrescampo.listview.Cuadrado"/>
+        <activity android:name="me.andrescampo.listview.Esfera"/>
+        <activity android:name="me.andrescampo.listview.Cubo"/>
+        <activity android:name="me.andrescampo.listview.Listar"/>
+        <activity android:name="me.andrescampo.listview.Rectangulo"/>
+        <activity android:name="me.andrescampo.listview.Volumen"/>
+        <activity android:name="me.andrescampo.listview.Triangulo"/>
+    </application>
+
+
+
+</manifest>
